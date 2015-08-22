@@ -2,7 +2,7 @@ try:
     import pyurdme
 except ImportError:
     import warnings
-    warnings.warn("Package 'pyurdme' cannot be found and is required for pyurdme simulations. See XXX for further details.")
+    warnings.warn("Package 'pyurdme' cannot be found and is required for PySB/pyURDME simulations. See XXX for further details.")
 from pysb.simulate import Simulator
 from pysb.bng import generate_equations
 import re

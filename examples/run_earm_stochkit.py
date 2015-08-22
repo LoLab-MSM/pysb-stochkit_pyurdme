@@ -1,5 +1,5 @@
 from pysb.examples.earm_1_0 import model 
-from pysb.tools.stochkit import run_stochkit
+from pysb_stochkit import run_stochkit
 import numpy as np
 import matplotlib.pyplot as plt
 

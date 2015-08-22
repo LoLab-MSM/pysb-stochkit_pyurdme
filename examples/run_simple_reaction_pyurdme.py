@@ -1,14 +1,11 @@
-from pysb.examples.simple_reaction_pyurdme import model
-from pysb.tools.pysb_pyurdme import run_pyurdme
+from simple_reaction_pyurdme import model
+from pysb_pyurdme import run_pyurdme
 import numpy as np
 import matplotlib.pyplot as plt
 import pyurdme
 from pysb.integrate import odesolve
 
-
-
 model.diffusivities = [('E(b=None)',0.001), ('P(b=None)',0.2)]
-
 
 initial_dist = {'E(b=None)':['set_initial_condition_place_near', [0.5,0.5]],  
                         'S(b=None)':['set_initial_condition_place_near', [1,0.5]]}

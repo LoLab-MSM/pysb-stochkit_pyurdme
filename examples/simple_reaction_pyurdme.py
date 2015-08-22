@@ -1,8 +1,7 @@
 from pysb import *
 from pysb.macros import *
+
 Model()
-
-
 
 # Parameter('kf', 2)
 # Parameter('kr', 2)
